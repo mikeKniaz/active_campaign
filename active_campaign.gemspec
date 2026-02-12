@@ -19,17 +19,18 @@ Gem::Specification.new do |spec|
     spec.metadata['homepage_uri'] = spec.homepage
     spec.metadata['source_code_uri'] = 'https://github.com/mhenrixon/rubocop-mhenrixon'
     spec.metadata['changelog_uri'] = 'https://github.com/mhenrixon/rubocop-mhenrixon'
+    spec.metadata['rubygems_mfa_required'] = 'true'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
+          'public gem pushes.'
   end
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   # spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport',  '>= 4.0', '< 9.0'
-  spec.add_dependency 'faraday',        '>= 2.0', '< 3.0'
-  spec.add_dependency 'oj',             '>= 3.0', '< 4.0'
+  spec.add_dependency 'activesupport', '>= 4.0', '< 9.0'
+  spec.add_dependency 'connection_pool',         '< 3.0'
+  spec.add_dependency 'faraday',       '>= 2.0', '< 3.0'
+  spec.add_dependency 'oj',            '>= 3.0', '< 4.0'
 end
