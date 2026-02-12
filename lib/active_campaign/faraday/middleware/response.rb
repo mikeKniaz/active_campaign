@@ -12,8 +12,8 @@ module ActiveCampaign
       #
       # @author Mikael Henriksson <mikael@mhenrixon.com>
       #
-      class Response < ::Faraday::Response::Middleware
-        dependency 'oj'
+      class Response < ::Faraday::Middleware
+        require 'oj'
 
         include TransformHash
 
@@ -29,7 +29,6 @@ module ActiveCampaign
 
           body = ::Oj.load(body, mode: :compat)
           transform_keys(body, :underscore)
-
         rescue ::EncodingError => e
           LOGGER.error "Api is not responding: #{e.inspect}"
           raise ::Faraday::ServerError.new(e, status: 503)

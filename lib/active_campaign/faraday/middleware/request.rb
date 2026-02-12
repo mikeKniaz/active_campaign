@@ -9,7 +9,7 @@ module ActiveCampaign
       # @author Mikael Henriksson <mikael@mhenrixon.com>
       #
       class Request < ::Faraday::Middleware
-        dependency 'oj'
+        require 'oj'
 
         include TransformHash
 
