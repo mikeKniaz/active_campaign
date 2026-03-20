@@ -1,0 +1,194 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: "<API_ENDPOINT>/contactDeals"
+    body:
+      encoding: UTF-8
+      string: '{"contactDeal":{"contact":"8432","deal":"31475"}}'
+    headers:
+      User-Agent:
+      - ActiveCampaign Ruby Client (v3.1.0)
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Api-Token:
+      - "<API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Fri, 20 Mar 2026 16:24:12 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2229'
+      Connection:
+      - keep-alive
+      Cf-Ray:
+      - 9df610d54ebb14f3-WAW
+      Cache-Control:
+      - no-store, no-cache, must-revalidate,no-cache, private
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Ratelimit-Limit:
+      - '500'
+      Ratelimit-Remaining:
+      - '498'
+      Retry-After:
+      - '1'
+      Set-Cookie:
+      - PHPSESSID=e171ea945314152f13aa1e30844dfea5; path=/; secure; HttpOnly; SameSite=Lax
+      - em_acp_globalauth_cookie=da90ce3a-08d9-4e67-90da-aeb44d61ea09; path=/; domain=.touristjourney1627481861.api-us1.com;
+        secure; httponly; SameSite=Lax
+      X-Envoy-Upstream-Service-Time:
+      - '137'
+      X-Request-Id:
+      - 2c2bc838-3e40-494d-86bf-96ef2c2e903e
+      Cf-Cache-Status:
+      - DYNAMIC
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Server:
+      - cloudflare
+    body:
+      encoding: UTF-8
+      string: '{"deals":[{"hash":"a1a13395","owner":"1","contact":"6545","organization":null,"group":"1","stage":"2","title":"UA
+        Test tour (Kyiv)","description":"","percent":"0","cdate":"2026-03-18T04:23:36-05:00","mdate":"2026-03-20T11:24:12-05:00","nextdate":null,"nexttaskid":null,"value":"112100","currency":"USD","winProbability":null,"winProbabilityMdate":null,"status":"0","activitycount":"20","nextdealid":"31475","edate":"2026-03-20
+        11:02:06","links":{"dealActivities":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/dealActivities","contact":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/contact","contactDeals":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/contactDeals","group":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/group","nextTask":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/nextTask","notes":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/notes","account":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/account","customerAccount":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/customerAccount","organization":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/organization","owner":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/owner","scoreValues":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/scoreValues","stage":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/stage","tasks":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/tasks","dealCustomFieldData":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/deals\/31475\/dealCustomFieldData"},"id":"31475","isDisabled":false,"account":null,"customerAccount":null}],"contactDeal":{"contact":"8432","deal":"31475","cdate":"2026-03-20T11:24:12-05:00","links":{"deal":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31564\/deal","contact":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31564\/contact","role":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31564\/role"},"id":"31564"}}'
+  recorded_at: Fri, 20 Mar 2026 16:24:12 GMT
+- request:
+    method: get
+    uri: "<API_ENDPOINT>/deals/31475/contactDeals"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - ActiveCampaign Ruby Client (v3.1.0)
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Api-Token:
+      - "<API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Mar 2026 16:24:13 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-store, no-cache, must-revalidate,no-cache, private
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Ratelimit-Limit:
+      - '500'
+      Ratelimit-Remaining:
+      - '497'
+      Retry-After:
+      - '1'
+      Set-Cookie:
+      - PHPSESSID=f055696bf1e669c8b7c71d5e79cf7379; path=/; secure; HttpOnly; SameSite=Lax
+      - em_acp_globalauth_cookie=6030275f-ae3f-414e-b89b-51ad5c33b765; path=/; domain=.touristjourney1627481861.api-us1.com;
+        secure; httponly; SameSite=Lax
+      X-Envoy-Upstream-Service-Time:
+      - '89'
+      X-Request-Id:
+      - aed47375-381d-461c-899f-04671083ad94
+      Cf-Cache-Status:
+      - DYNAMIC
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 9df610d87c8324bb-WAW
+    body:
+      encoding: ASCII-8BIT
+      string: '{"contactDeals":[{"deal":"31475","contact":"9332","role":null,"cdate":"2026-03-20T09:25:02-05:00","created_timestamp":"2026-03-20
+        09:25:02","updated_timestamp":"2026-03-20 09:25:02","created_by":null,"updated_by":null,"isDisabled":true,"links":{"deal":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31541\/deal","contact":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31541\/contact","role":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31541\/role"},"id":"31541"},{"deal":"31475","contact":"9334","role":null,"cdate":"2026-03-20T10:02:01-05:00","created_timestamp":"2026-03-20
+        10:02:01","updated_timestamp":"2026-03-20 10:02:01","created_by":null,"updated_by":null,"isDisabled":true,"links":{"deal":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31545\/deal","contact":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31545\/contact","role":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31545\/role"},"id":"31545"},{"deal":"31475","contact":"8432","role":null,"cdate":"2026-03-20T11:24:12-05:00","created_timestamp":"2026-03-20
+        11:24:12","updated_timestamp":"2026-03-20 11:24:12","created_by":null,"updated_by":null,"isDisabled":true,"links":{"deal":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31564\/deal","contact":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31564\/contact","role":"https:\/\/touristjourney1627481861.api-us1.com\/api\/3\/contactDeals\/31564\/role"},"id":"31564"}],"meta":{"total":"3"}}'
+  recorded_at: Fri, 20 Mar 2026 16:24:13 GMT
+- request:
+    method: delete
+    uri: "<API_ENDPOINT>/contactDeals/31564"
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - ActiveCampaign Ruby Client (v3.1.0)
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Api-Token:
+      - "<API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Mar 2026 16:24:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '2'
+      Connection:
+      - keep-alive
+      Cf-Ray:
+      - 9df610dad8b2afc3-WAW
+      Cache-Control:
+      - no-store, no-cache, must-revalidate,no-cache, private
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Ratelimit-Limit:
+      - '500'
+      Ratelimit-Remaining:
+      - '499'
+      Retry-After:
+      - '1'
+      Set-Cookie:
+      - PHPSESSID=8a0ad9ff09781336f5412473b4a52517; path=/; secure; HttpOnly; SameSite=Lax
+      - em_acp_globalauth_cookie=90db33a3-7e2a-421d-84ca-07e5d24edee2; path=/; domain=.touristjourney1627481861.api-us1.com;
+        secure; httponly; SameSite=Lax
+      X-Envoy-Upstream-Service-Time:
+      - '167'
+      X-Request-Id:
+      - 7bc54ca1-20ea-44cb-9170-f960c625fe19
+      Cf-Cache-Status:
+      - DYNAMIC
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+      Server:
+      - cloudflare
+    body:
+      encoding: UTF-8
+      string: "{}"
+  recorded_at: Fri, 20 Mar 2026 16:24:13 GMT
+recorded_with: VCR 6.4.0
