@@ -9,7 +9,7 @@ http_interactions:
         text field","isrequired":"0","perstag":"perstag","defval":"Default value","visible":"1","ordernum":"2"}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -75,7 +75,7 @@ http_interactions:
       string: '{"fieldRel":{"field":"415","relid":"0"}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -140,7 +140,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:

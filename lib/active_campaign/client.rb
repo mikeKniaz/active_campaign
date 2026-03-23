@@ -15,6 +15,7 @@ module ActiveCampaign
     endpoint :addresses
     endpoint :contacts
     endpoint :contact_tags
+    endpoint :contact_deals
     endpoint :deals
     endpoint :deal_custom_field_meta
     endpoint :deal_custom_field_data

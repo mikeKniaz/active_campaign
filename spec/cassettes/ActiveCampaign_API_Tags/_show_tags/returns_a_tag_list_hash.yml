@@ -8,7 +8,7 @@ http_interactions:
       string: '{"tag":{"tag":"Tag name","tagType":"contact","description":"Tag description"}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -73,7 +73,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -147,7 +147,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:

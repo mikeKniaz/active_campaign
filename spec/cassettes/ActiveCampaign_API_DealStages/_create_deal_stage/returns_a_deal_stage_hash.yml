@@ -8,7 +8,7 @@ http_interactions:
       string: '{"group":{"title":"Awesome","descript":"My really awesome group"}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -73,7 +73,7 @@ http_interactions:
       string: '{"user":{"username":"hokus","email":"hokus@pokus.de","firstName":"Hokus","lastName":"Pokus","group":"39","password":"hokuspokus"}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -138,7 +138,7 @@ http_interactions:
       string: '{"dealGroup":{"title":"Bogus Pipeline","currency":"eur","allgroups":1,"allusers":1,"autoassign":1,"users":["33"],"groups":["39"]}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -209,7 +209,7 @@ http_interactions:
         DESC","group":"25","order":1,"title":"Initial Contact","width":360}}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -275,7 +275,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -340,7 +340,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -407,7 +407,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -474,7 +474,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:

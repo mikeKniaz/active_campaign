@@ -9,7 +9,7 @@ http_interactions:
         5","city":"Zeuthen","state":"Brandenburg","zip":"15738","country":"DE"},"changeCase":false}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -75,7 +75,7 @@ http_interactions:
       string: '{"address":{"isDefault":false,"allgroup":false},"changeCase":false}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
@@ -142,7 +142,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:

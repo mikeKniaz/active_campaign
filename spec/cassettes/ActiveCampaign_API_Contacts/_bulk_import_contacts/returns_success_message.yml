@@ -8,7 +8,7 @@ http_interactions:
       string: '{"contacts":[{"email":"test_user_1@test.com","firstName":"test_user_1","lastName":"test_user_1","phone":123123123,"tags":"test_tag1"},{"email":"test_user_2@test.com","firstName":"test_user_2","lastName":"test_user_2","phone":123123123,"tags":"test_tag2"}]}'
     headers:
       User-Agent:
-      - ActiveCampaign Ruby Client (v3.0.0)
+      - ActiveCampaign Ruby Client (v3.1.0)
       Accept:
       - application/json
       Content-Type:
